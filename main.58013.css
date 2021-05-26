@@ -211,7 +211,8 @@ input[type="number"] {
   opacity: 0.8;
   transform: scale(0.9);
   transform-origin: center;
-  filter: grayscale(75%);
+  -webkit-filter: grayscale(75%);
+          filter: grayscale(75%);
 }
 
 .protected__3y5Sa {
